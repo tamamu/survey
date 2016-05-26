@@ -19,7 +19,7 @@ Skip-gramモデルで訓練の目標となるのは、周辺の単語を予測�
 
 > In our work we use a binary Huffman tree, as it assigns short codes to the frequent words which results in fast training. It has been observed before that grouping words together by their frequency words well as a very simple speedup technique for the neural network based language models.
 
-我々は仕事で、頻出語句に短いコードを割り振るためにbinary Huffman treeを使っているが、それは結果として高速な訓練となっている。これはニューラルネットワークベースの言語モデルのための非常に単純な高速化技術として、頻出語句のグルーピングの前によく見られています。
+我々は仕事で、頻出語句に短いコードを割り振るためにbinary Huffman treeを使っているが、それは結果として高速な訓練となっている。これはニューラルネットワークベースの言語モデルのための非常に単純な高速化技術として、頻出語句のグルーピングの前によく見られる。
 
 
 Hierarchical Softmaxの代わりとなるのがNoise Contrastive Estimationである。
