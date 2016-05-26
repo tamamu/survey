@@ -1,6 +1,6 @@
 # Distributed Representations of Words and Phrases and their Compositionality
 
-###### Skip-gram model, softmax, negative sampling
+###### Skip-gram model, softmax, negative sampling, binary Huffman tree
 
 > Distributed representations of words in a vector space help learning algorithms to achieve better performance in natural language processing tasks by grouping similar words.
 
@@ -16,3 +16,16 @@ Skip-gramモデルは、大量の構造化されていないテキストデー�
 
 
 Skip-gramモデルで訓練の目標となるのは、周辺の単語を予測するのに適した単語のベクトル表現を学習すること。
+
+> In our work we use a binary Huffman tree, as it assigns short codes to the frequent words which results in fast training. It has been observed before that grouping words together by their frequency words well as a very simple speedup technique for the neural network based language models.
+
+我々は仕事で、頻出語句に短いコードを割り振るためにbinary Huffman treeを使っているが、それは結果として高速な訓練となっている。これはニューラルネットワークベースの言語モデルのための非常に単純な高速化技術として、頻出語句のグルーピングの前によく見られています。
+
+
+Hierarchical Softmaxの代わりとなるのがNoise Contrastive Estimationである。
+それに対してNegative Samplingはそのどちらよりも速い。
+
+
+> The subsampling of the frequent words improves the training speed several times and makes the word representations significantly more accurate.
+
+頻出語句のサブサンプリングは学習スピードを数倍に改善し、単語表現をより正確にする。
