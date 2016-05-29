@@ -1,6 +1,6 @@
 # A Neural Probabilistic Language Model
 
-##### Gaussian mixture models
+###### Gaussian mixture models
 
 > ... learning a distributed representation for words which allows each training sentence to inform the model about an exponential number of semantically neighboring sentences.
 
