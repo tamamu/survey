@@ -7,7 +7,7 @@
 CL-Projectを使う。  
 `(ql:quickload :cl-project)`でインストール出来るので予めしておくこと。  
 仮に、`lisp-dev/`以下に`your-system`というプロジェクトを作るとしよう。  
-```
+```lisp
 (cl-project:make-project #p"lisp-dev/your-system"
   :author "Your Name"
   :email "your.email@address.com"
