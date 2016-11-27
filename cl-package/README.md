@@ -13,7 +13,7 @@ ES6のimport/exportの仕様が近い気がする。
   (:export variable-A variable-B function-A function-B))
 ```
 
-:useで指定したパッケージ名(名前空間)は省略可能になる。  
+:useで指定したパッケージ名(名前空間)は、そのパッケージ内で省略可能になる。  
 例えば`hoge:*special*`としていたシンボルが`*special*`として参照出来る。  
 基本的には事前にasdfでロードした外部ライブラリのパッケージ名を列挙することになる。  
 :exportで指定したシンボルは外部から参照可能(public)になる。  
