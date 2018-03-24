@@ -1,3 +1,3 @@
 # My Survey
 
-調べたことのまとめ。
+Topics related in my study project, or for hobby.
